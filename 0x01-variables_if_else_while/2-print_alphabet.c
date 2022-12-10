@@ -20,7 +20,7 @@ int main(void)
 		putchar(alpha);
 		alpha++;
 	}
-
+	putchar(10);
 	return (0);
 
 }
