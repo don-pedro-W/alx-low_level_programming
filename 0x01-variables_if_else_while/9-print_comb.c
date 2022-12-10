@@ -15,13 +15,17 @@ int main(void)
 	one = 48;
 
 	/*Code goes here */
-	while (one <= 56)
+	while (one <= 57)
 	{
-		putchar(one++);
-		putchar(',');
-		putchar(' ');
+		putchar(one);
+		if (one <= 56)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+		one++;
 	}
-	putchar(57);
+	putchar(10);
 
 	return (0);
 
