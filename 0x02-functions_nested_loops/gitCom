@@ -1,0 +1,7 @@
+#!/bin/bash
+echo -e "Insert a message: \c"
+read -r m
+
+git add .
+git commit -m "$m"
+git push
