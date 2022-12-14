@@ -8,8 +8,9 @@
 
 int _islower(int c)
 {
-	int r = 0,i;
-	for (i = 61; i < 123; i++)
+	int r = 0, i;
+
+	for (i = 97; i < 123; i++)
 	{
 		if (c == i)
 		{
@@ -18,6 +19,6 @@ int _islower(int c)
 		}
 	}
 
-	return r;
+	return (r);
 }
 
