@@ -18,7 +18,7 @@ int _isalpha(int c)
 			r = 1;
 			break;
 		}
-	}	
+	}
 	for (j = 97; j <= 122; j++)
 	{
 		if (c == j)
