@@ -5,7 +5,7 @@
  *
  * Return: 1 if error, 0 if none
  */
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
 	char a;
 
